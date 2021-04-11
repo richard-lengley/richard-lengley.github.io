@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+}
+
+.wrapper {
+  margin: 100px auto;
+  padding: 50px 100px;
+  background: hsl(0, 0%, 95%);
+  width: 80vw;
+  border-radius: 8px;
+  box-shadow: 2px 1px 10px rgba(177, 177, 177, 0.651);
+}
+
+.container {
+  display: flex;
+  height: 20em;
+  border-radius: 8px 8px 0 0;
+}
+
+.sedans {
+  object-fit: cover;
+  background: hsl(31, 77%, 52%);
+  /*border-radius: 8px 0 0 8px;*/
+}
+
+.suvs {
+  background: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background: hsl(179, 100%, 13%);
+  /*border-radius: 0 8px 8px 0;*/
+}
